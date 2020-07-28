@@ -1,3 +1,5 @@
+"use strict";
+
 const Name = "Troy Hanson";
 let age = 26;
 const birthday = "04/08/1994";
