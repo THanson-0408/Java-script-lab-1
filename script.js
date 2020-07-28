@@ -42,3 +42,16 @@ while (true) {
     break;
   }
 }
+
+let hours = 60;
+let wage = 10;
+let totalPaycheck = 0;
+
+if (hours <= 40) {
+  totalPaycheck = hours * wage;
+} else {
+  let regularHours = 40 * wage;
+  let overtime = (hours - 40) * (wage * 1.5);
+  totalPaycheck = regularHours + overtime;
+}
+console.log(totalPaycheck);
